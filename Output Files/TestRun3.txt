@@ -1,0 +1,14 @@
+.........F...........
+======================================================================
+FAIL: testInvalidInputC1 (TestTriangle.TestInvalidInputs.testInvalidInputC1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 84, in testInvalidInputC1
+    self.assertEqual(classifyTriangle(True,20,19), 'InvalidInput', 'True,20,19 should be InvalidInput')
+AssertionError: 'Scalene' != 'InvalidInput'
+- Scalene
++ InvalidInput
+ : True,20,19 should be InvalidInput
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.001s
