@@ -1,0 +1,135 @@
+FFFFFFFFFFFF
+======================================================================
+FAIL: testEquilateralTriangleA (TestTriangle.TestEquilateralTriangles.testEquilateralTriangleA)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 33, in testEquilateralTriangleA
+    self.assertEqual(classifyTriangle(1,1,1),'Equilateral','1,1,1 should be equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 1,1,1 should be equilateral
+
+======================================================================
+FAIL: testEquilateralTriangleB (TestTriangle.TestEquilateralTriangles.testEquilateralTriangleB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 36, in testEquilateralTriangleB
+    self.assertEqual(classifyTriangle(15,15,15),'Equilateral','15,15,15 should be equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 15,15,15 should be equilateral
+
+======================================================================
+FAIL: testEquilateralTriangleC (TestTriangle.TestEquilateralTriangles.testEquilateralTriangleC)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 39, in testEquilateralTriangleC
+    self.assertEqual(classifyTriangle(50,50,50),'Equilateral','50,50,50 should be equilateral')
+AssertionError: 'InvalidInput' != 'Equilateral'
+- InvalidInput
++ Equilateral
+ : 50,50,50 should be equilateral
+
+======================================================================
+FAIL: testIsocelesTriangleA (TestTriangle.TestIsocelesTriangles.testIsocelesTriangleA)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 55, in testIsocelesTriangleA
+    self.assertEqual(classifyTriangle(3,3,5),'Isoceles','3,3,5 should be isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+ : 3,3,5 should be isoceles
+
+======================================================================
+FAIL: testIsocelesTriangleB (TestTriangle.TestIsocelesTriangles.testIsocelesTriangleB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 58, in testIsocelesTriangleB
+    self.assertEqual(classifyTriangle(5,3,5),'Isoceles','5,3,5 should be isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+ : 5,3,5 should be isoceles
+
+======================================================================
+FAIL: testIsocelesTriangleC (TestTriangle.TestIsocelesTriangles.testIsocelesTriangleC)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 61, in testIsocelesTriangleC
+    self.assertEqual(classifyTriangle(8,2,2),'Isoceles','8,2,2 should be isoceles')
+AssertionError: 'InvalidInput' != 'Isoceles'
+- InvalidInput
++ Isoceles
+ : 8,2,2 should be isoceles
+
+======================================================================
+FAIL: testRightTriangleA (TestTriangle.TestRightTriangles.testRightTriangleA)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 22, in testRightTriangleA
+    self.assertEqual(classifyTriangle(3,4,5),'Right','3,4,5 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 3,4,5 is a Right triangle
+
+======================================================================
+FAIL: testRightTriangleB (TestTriangle.TestRightTriangles.testRightTriangleB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 25, in testRightTriangleB
+    self.assertEqual(classifyTriangle(5,3,4),'Right','5,3,4 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 5,3,4 is a Right triangle
+
+======================================================================
+FAIL: testRightTriangleC (TestTriangle.TestRightTriangles.testRightTriangleC)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 28, in testRightTriangleC
+    self.assertEqual(classifyTriangle(4,5,3),'Right','4,5,3 is a Right triangle')
+AssertionError: 'InvalidInput' != 'Right'
+- InvalidInput
++ Right
+ : 4,5,3 is a Right triangle
+
+======================================================================
+FAIL: testScaleneTriangleA (TestTriangle.TestScaleneTriangles.testScaleneTriangleA)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 44, in testScaleneTriangleA
+    self.assertEqual(classifyTriangle(1,2,3),'Scalene','1,2,3 should be scalene')
+AssertionError: 'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+ : 1,2,3 should be scalene
+
+======================================================================
+FAIL: testScaleneTriangleB (TestTriangle.TestScaleneTriangles.testScaleneTriangleB)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 47, in testScaleneTriangleB
+    self.assertEqual(classifyTriangle(5,3,7),'Scalene','5,3,7 should be scalene')
+AssertionError: 'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+ : 5,3,7 should be scalene
+
+======================================================================
+FAIL: testScaleneTriangleC (TestTriangle.TestScaleneTriangles.testScaleneTriangleC)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/carsonlee/Documents/S25 Semester/SSW567/SSW567-HW6b/TestTriangle.py", line 50, in testScaleneTriangleC
+    self.assertEqual(classifyTriangle(8,9,2),'Scalene','8,9,2 should be scalene')
+AssertionError: 'InvalidInput' != 'Scalene'
+- InvalidInput
++ Scalene
+ : 8,9,2 should be scalene
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.002s
