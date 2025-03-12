@@ -1,4 +1,5 @@
 # Homework 6b: Testing a Legacy Systems
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/YBMEBAqhQKNrvTPDbdRbap/Q57JhqGVTKYXoQE4s7Yvuy/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/YBMEBAqhQKNrvTPDbdRbap/Q57JhqGVTKYXoQE4s7Yvuy/tree/main)
 The objective of this assignment is for you to
 1.  develop a set of test-cases for an existing triangle classification program,
 2.  use those test-cases to find and fix defects in that program, and
